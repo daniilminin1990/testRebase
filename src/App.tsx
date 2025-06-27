@@ -31,6 +31,8 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
+        <h1>SOME TEXT</h1>
+        <h1>SOME TEXT</h1>
       </div>
       <FooInMain2/>
       <p className="read-the-docs">
