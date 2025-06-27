@@ -3,6 +3,7 @@ import reactLogo from '../public/folderForAssets/assets/react.svg'
 import viteLogo from '../public/folderForAssets/assets/vite.svg'
 import './App.css'
 import {FooInMain} from "./FooInMain.tsx";
+import {FooInMain2} from "./FooInMain2.tsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,6 +29,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
+      <FooInMain2/>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
