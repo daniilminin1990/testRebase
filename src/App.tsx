@@ -6,12 +6,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import {FooInMain} from "./FooInMain.tsx";
 import {FooInMain2} from "./FooInMain2.tsx";
+import {Foo} from "./Foo.tsx";
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <Foo/>
       <h1>moved images to new dir</h1>
       <div>
         <a href="https://vite.dev" target="_blank">
